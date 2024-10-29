@@ -620,6 +620,25 @@ form textarea {
       0 0 200px rgb(22, 204, 31); */
   }
 }
+@media only screen and (max-width: 420px) {
+  .contact {
+    padding-left: -10px;
+    margin-left: 20px;
+  }
+  .skills {
+    margin-left: -70px;
+  }
+  .about .about_img {
+    display: none;
+  }
+  .about {
+    margin-left: 30px;
+  }
+  .about_text {
+    justify-content: center;
+    width: 350px;
+  }
+}
 /* Mobile Styles */
 @media only screen and (max-width: 767px) {
   .home {
@@ -660,6 +679,10 @@ form textarea {
     font-size: 18px;
     width: 40px;
     height: 40px;
+  }
+  .contact {
+    padding-right: 5px;
+    padding-left: -10px;
   }
 }
 
